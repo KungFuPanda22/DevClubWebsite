@@ -17,12 +17,13 @@
     <title>Dev Club</title>
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
     <link href="./css/libs/rubick_pres.css" rel="stylesheet">
     <link href="./css/animation_styles.css" rel="stylesheet">
+    <link href="./css/vertical_carousel.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet" type="text/css">
     <!--     Fonts and icons     -->
     <link href="./css/libs/font-awesome.min.css" rel="stylesheet">
@@ -95,31 +96,89 @@
                     </div>
                 </div>
             </div>
-            <a href="" data-scroll="true" data-id="#uitools" class="scroll-arrow hidden-xs hidden-sm">
+            <a href="" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
                 <i class="fa fa-angle-down"></i>
             </a>
         </div>
     </div>
-     <!--   <div class="section section-we-are-1" id="whoWeAre">
-            <div class="text-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="title" id="animationTest">
-                            <h2>About Us</h2>
-                            <div class="separator-container">
-                                <div class="separator line-separator">∎</div>
-                            </div>
-                            <p class="large">
-                                Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus.
-                            </p>
+
+    <div class="section section-we-are-1" id="whoWeAre">
+        <div class="text-area">
+            <div class="container">
+                <div class="row">
+                    <div class="title" id="animationTest">
+                        <h2>About Us</h2>
+                        <div class="separator-container">
+                            <div class="separator line-separator">∎</div>
                         </div>
+                        <p class="large">
+                            Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus.
+                        </p>
                     </div>
                 </div>
             </div>
-            <a href="" data-scroll="true" data-id="#uitools" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
-            </a>
-        </div>-->
+        </div>
+        <a href="" data-scroll="true" data-id="#uitools" class="scroll-arrow hidden-xs hidden-sm">
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </div>
+
+    <div class="section section-check slide-wrapper">
+        <div class="container">
+            <div id="verticalCarousel" class="carousel carousel-vert slide" data-interval="2000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators carousel-vert-indicators">
+                    <li data-target="#verticalCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#verticalCarousel" data-slide-to="1"></li>
+                    <li data-target="#verticalCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner carousel-vert-inner">
+                    <div class="item active">
+                        <div class="fill" style=" background-color:#48c3af;">
+                            <div class="inner-content">
+                                <!--<div class="carousel-desc">-->
+
+                                    <h2>Modern Designer Sofa</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="fill" style="background-color:#b33f4a;">
+                            <div class="inner-content">
+                                <!--<div class="carousel-desc">-->
+
+                                    <h2>Vintage Style Sofa</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="fill" style="background-color:#7fc2f4;">
+                            <div class="inner-content">
+
+                                <!--<div class="col-md-6 text-left">-->
+                                    <!--<div class="carousel-desc">-->
+
+                                        <h2>Stylish Sofa</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                    <!--</div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
             <div class="section section-we-made-3" id="uitools" style="background: #bf634c;">
                <div class="container">
@@ -134,105 +193,105 @@
                     </div>
                 </div>
                 <div class="container">
-    <div class="row">
-        <div id="carouselControls" class="carousel vert slide col-md-6" data-ride="carousel" data-interval="5000" style="height: 350px;">
-            
-            <div class="carousel-inner" style="height: 350px;">
-                <div class="carousel-item active">
-                    
-                                    <a target="_blank"  href="https://aman71197.github.io/CampusBot/">
-                                        <img src="./public/images/placeholder.jpg" width="100%">
-                                    </a>
-                </div>
-            
-                <div class="carousel-item">
-                    
-                                    <a target="_blank" class="img-class" href="http://study.devclub.iitd.ac.in">
-                                        <img src="./public/images/placeholder.jpg" width="100%">
-                 </div>              
-                <div class="carousel-item">
-                   
-                                    <a target="_blank" class="img-class" href="http://fs.devclub.iitd.ac.in">
-                                        <img src="./public/images/placeholder.jpg" width="100%">                                    
-                                    </a>
-                </div>
-                <div class="carousel-item">
-                   
-                                    <a target="_blank" class="img-class" href="https://game.devclub.iitd.ac.in">
-                                       <img src="./public/images/placeholder.jpg" width="100%">
-                                    </a>
+                    <div class="row">
+                        <div id="carouselControls" class="carousel vert slide col-md-6" data-ride="carousel" data-interval="5000" style="height: 350px;">
+                            
+                            <div class="carousel-inner" style="height: 350px;">
+                                <div class="carousel-item active">
+                                    
+                                                    <a target="_blank"  href="https://aman71197.github.io/CampusBot/">
+                                                        <img src="./public/images/placeholder.jpg" width="100%">
+                                                    </a>
+                                </div>
+                            
+                                <div class="carousel-item">
+                                    
+                                                    <a target="_blank" class="img-class" href="http://study.devclub.iitd.ac.in">
+                                                        <img src="./public/images/placeholder.jpg" width="100%">
+                                </div>              
+                                <div class="carousel-item">
                                 
-                </div>
-                <div class="carousel-item">
-                  
-                                    <a target="_blank" class="img-class" href="https://github.com/ozym4nd145/FlashSubs">
-                                       <img src="./public/images/placeholder.jpg" width="100%">
-                                    </a>
-                             
-                </div>
-            </div>
-        </div>
-        <div id="carouselControlsSimple" class="carousel slide col-md-6" data-ride="carousel" data-interval="5000" style="height: 350px;"> 
-            <div class="carousel-inner" style="height:350px;">
-                <div class="carousel-item active">
-                    <div class="content">
+                                                    <a target="_blank" class="img-class" href="http://fs.devclub.iitd.ac.in">
+                                                        <img src="./public/images/placeholder.jpg" width="100%">                                    
+                                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                
+                                                    <a target="_blank" class="img-class" href="https://game.devclub.iitd.ac.in">
+                                                    <img src="./public/images/placeholder.jpg" width="100%">
+                                                    </a>
+                                                
+                                </div>
+                                <div class="carousel-item">
+                                
+                                                    <a target="_blank" class="img-class" href="https://github.com/ozym4nd145/FlashSubs">
+                                                    <img src="./public/images/placeholder.jpg" width="100%">
+                                                    </a>
+                                            
+                                </div>
+                            </div>
+                        </div>
+                        <div id="carouselControlsSimple" class="carousel slide col-md-6" data-ride="carousel" data-interval="5000" style="height: 350px;"> 
+                            <div class="carousel-inner" style="height:350px;">
+                                <div class="carousel-item active">
+                                    <div class="content">
 
-                                        <h3>Campus Bot</h3>
-                                        <p style="font-size:105%;">Campus Bot is a chat bot that was born at IIT Delhi. Campus Bot is one stop solution for all the campus needs that students and the faculty in the campus can use. It has been integrated into numerous chatting platforms.
-                                            Presently the bot has been trained for IITD but it can be later on trained for any campus by just modifying the format of the entry number i.e the Admission number.</p>
-                                        <a target="_blank" href="https://aman71197.github.io/CampusBot/" class="btn btn-round btn-fill">Details about Project</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/CampusBot/" class="btn btn-round btn-fill">GitHub Repository</a>
+                                                        <h3>Campus Bot</h3>
+                                                        <p style="font-size:105%;">Campus Bot is a chat bot that was born at IIT Delhi. Campus Bot is one stop solution for all the campus needs that students and the faculty in the campus can use. It has been integrated into numerous chatting platforms.
+                                                            Presently the bot has been trained for IITD but it can be later on trained for any campus by just modifying the format of the entry number i.e the Admission number.</p>
+                                                        <a target="_blank" href="https://aman71197.github.io/CampusBot/" class="btn btn-round btn-fill">Details about Project</a>&nbsp&nbsp&nbsp
+                                                        <a target="_blank" href="https://github.com/devclub-iitd/CampusBot/" class="btn btn-round btn-fill">GitHub Repository</a>
 
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
+                                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="content">
 
-                                        <h3>Study Portal</h3>
-                                        <p style="font-size:105%;">We bring to you one of its kind crowd contributed portal. For the students, by the students and of the students. It acts as a one stop platform for all the learning that you will need. Share, learn and go. Presenting the study portal (Can be accessed only in internal IITD network)</p>
-                                        <a target="_blank" href="http://study.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Portal</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/BookShelf" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
+                                                        <h3>Study Portal</h3>
+                                                        <p style="font-size:105%;">We bring to you one of its kind crowd contributed portal. For the students, by the students and of the students. It acts as a one stop platform for all the learning that you will need. Share, learn and go. Presenting the study portal (Can be accessed only in internal IITD network)</p>
+                                                        <a target="_blank" href="http://study.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Portal</a>&nbsp&nbsp&nbsp
+                                                        <a target="_blank" href="https://github.com/devclub-iitd/BookShelf" class="btn btn-round btn-fill">GitHub Repository</a>
+                                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="content">
 
-                                        <h3>SenData</h3>
-                                        <p style="font-size:105%;">Send large files seamlessly through the internet, without the hassle of uploading it on a server first. A simple tool that gets the job done. Powered by WebRTC.</p>
-                                        <a target="_blank" href="http://fs.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Website</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/SenData" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
+                                                        <h3>SenData</h3>
+                                                        <p style="font-size:105%;">Send large files seamlessly through the internet, without the hassle of uploading it on a server first. A simple tool that gets the job done. Powered by WebRTC.</p>
+                                                        <a target="_blank" href="http://fs.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Website</a>&nbsp&nbsp&nbsp
+                                                        <a target="_blank" href="https://github.com/devclub-iitd/SenData" class="btn btn-round btn-fill">GitHub Repository</a>
+                                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="content">
 
-                                        <h3>Tank Assault</h3>
-                                        <p style="font-size:105%;">Love solving mazes? Or love shooting? We bring for you an awesome combination of both which will leave you thrilled. Come and join us. Compete with your friends or with our awesome A.I.(Model under Training)</p>
-                                        <a target="_blank" href="https://game.devclub.iitd.ac.in" class="btn btn-round btn-fill">Let's Play!</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/TankAssault2" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
+                                                        <h3>Tank Assault</h3>
+                                                        <p style="font-size:105%;">Love solving mazes? Or love shooting? We bring for you an awesome combination of both which will leave you thrilled. Come and join us. Compete with your friends or with our awesome A.I.(Model under Training)</p>
+                                                        <a target="_blank" href="https://game.devclub.iitd.ac.in" class="btn btn-round btn-fill">Let's Play!</a>&nbsp&nbsp&nbsp
+                                                        <a target="_blank" href="https://github.com/devclub-iitd/TankAssault2" class="btn btn-round btn-fill">GitHub Repository</a>
+                                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="content">
 
-                                        <h3>Flash Subs</h3>
-                                        <p style="font-size:105%;">Flash subs is a python program that manages our media library i.e. it can automatically download subtitles and other information(Correct Title, IMDB rating, Plot Summary etc.) for movies and TV Series in our computer.</p>
-                                        <p style="font-size:105%;">Subtitles are searched using- 1. Subdb database (hash) 2. Opensubtitles database (hash) 3. Opensubtitles database (name) 4. Bing (name) Thus, the probability of finding the subtitles become quite high.</p>
-                                        <a target="_blank" href="https://github.com/ozym4nd145/FlashSubs" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
+                                                        <h3>Flash Subs</h3>
+                                                        <p style="font-size:105%;">Flash subs is a python program that manages our media library i.e. it can automatically download subtitles and other information(Correct Title, IMDB rating, Plot Summary etc.) for movies and TV Series in our computer.</p>
+                                                        <p style="font-size:105%;">Subtitles are searched using- 1. Subdb database (hash) 2. Opensubtitles database (hash) 3. Opensubtitles database (name) 4. Bing (name) Thus, the probability of finding the subtitles become quite high.</p>
+                                                        <a target="_blank" href="https://github.com/ozym4nd145/FlashSubs" class="btn btn-round btn-fill">GitHub Repository</a>
+                                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
 
                 <!--<div class="container">
                     
@@ -331,7 +390,7 @@
                         </div>
                 </div>
             </div>
-            </div>
+            </div> -->
         </div>
        <div class="section section-team-2" id="team">
                 <div class="container">
@@ -604,12 +663,13 @@
                     </div>
                 </div>
             </footer>
-        </div> -->
+        </div>
         <!-- end wrapper -->
 
         <!--   core js files    -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <!--   file for adding vertical points where we activate the elements animation   -->
         <script type="text/javascript" src="./js/libs/jquery.waypoints.min.js"></script>
@@ -621,6 +681,7 @@
         <script type="text/javascript" src="./js/libs/typed.js"></script>
         <!-- script for typing animation -->
         <script type="text/javascript" src="./js/typing_animation.js"></script>
+        <script type="text/javascript" src="./js/vertical_carousel.js"></script>
         <script type="text/javascript">
         $('.carousel-control-next').click(function() {
         $("#carouselControlsSimple").carousel("next");
